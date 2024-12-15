@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(bg1color.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 80px;
+}
+
+.nav-link {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-link ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-link ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-link ul li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #3cb371;
+    display: block;
+    margin: auto;
+    transition: 0.4s;
+}
+
+.nav-link ul li:hover::after {
+    width: 100%;
+}
+
+.textbox {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.textbox h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.textbox p {
+    margin: 10px 0 40px;
+    font-size: 16px;
+    color: white;
+}
+
+.button {
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 20px; /* Add this line to adjust the left margin */
+    text-decoration: none;
+    background-color: #6236f4; /* Use the primary color from your palette */
+    transition: background-color 0.3s ease;
+}
+
+.types {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p {
+    color: #808080;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+.row1 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.typesin {
+    height: 400px;
+    width: 300px;
+    margin: 10px;
+    background-color: #f0f8ff;
+    padding: 15px;
+    border-radius: 10px;
+    transform: 0.5s;
+    box-sizing: content-box;
+}
+
+.typesin img {
+    height: 180px;
+    width: 100%;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.typesin:hover {
+    box-shadow: 0 0 20px 0px #4682b4;
+}
+
+.Plastic {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.campus-col {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffebcd;
+}
+
+.campus-col img {
+    width: 100%;
+    display: block;
+}
+
+.campus-col p {
+    color: #ff4500;
+}
+
+.layer {
+    background: transparent;
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.layer h3 {
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer:hover h3 {
+    bottom: 49%;
+    opacity: 1;
+}
+
+.soution {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: ;
+}
+
+.solution-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.solution-col img {
+    width: 100%;
+    border-radius: 10px;
+}
+.typesin:nth-child(odd) {
+    background-color: #ffd700; /* Gold */
+}
+.typesin:nth-child(even) {
+    background-color: #87ceeb; /* Sky Blue */
+}
+.typesin:hover {
+    box-shadow: 0 0 20px 0px #4682b4;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* ... (unchanged styles) ... */
+
+.row .assessment-item{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffebcd;
+}
+.row .impact-item {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffebcd;
+}
+
+.row .assessment-item img,
+.row .impact-item img {
+    width: 100%;
+    display: block;
+}
+
+.row .assessment-item p,
+.row .impact-item p {
+    color: #ff4500;
+}
+
+.layer {
+    background: transparent;
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.layer h3 {
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer:hover h3 {
+    bottom: 49%;
+    opacity: 1;
+}
+.cta {
+    margin: 100px auto;
+    color:#3cb371;
+    width: 80%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/hilly1.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.cta h1 {
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+/* ... (unchanged styles) ... */
+/* Change the colors of the buttons and hover effect */
+.cta {
+    /* ... (other styles) ... */
+    background-color: #3cb371; /* Green */
+}
+
+.cta:hover {
+    background-color: #33691e; /* Dark Green */
+}
+
+/* ... (other styles) ... */
+/* Add transition to the cta button */
+.cta {
+    /* ... (other styles) ... */
+    transition: 0.5s;
+}
+/* Add media query for tablets */
+@media screen and (max-width: 768px) {
+    .row .assessment-item,
+    .row .impact-item {
+        flex-basis: 46%;
+    }
+}
+
+/* Add media query for smartphones */
+@media screen and (max-width: 480px) {
+    .row .assessment-item,
+    .row .impact-item {
+        flex-basis: 100%;
+    }
+}
+/* Update the font-family in the CSS file */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.risk-assessment h1 {
+    text-align: center;
+}
+.wildlife-impact h1 {
+    text-align: center;
+    color: black;
+}
+.wildlife-impact p {
+    text-align: center;
+    color:rgba(0, 0, 0, 0.7);
+}
+.risk-assessment {
+    background-color:aqua;
+}
+.risk-assessment p {
+    color: black;
+}
+.wildlife-impact {
+    background-color: aquamarine;
+}
+.prevention-strategies {
+    background-color: cornflowerblue;
+}
+.prevention-strategies h1 {
+    color:black;
+}
+.prevention-strategies p {
+    color: black;
+}
+.research-findings {
+    background-color: azure;
+}
+.research-findings h1 {
+    color: black;
+} 
+.research-findings p {
+    color: black;
+}
+.emergency-response {
+    background-color: lightcoral;
+}
+.emergency-response h1 {
+    color: black;
+}
+.emergency-response p {
+    color: black;
+}
+.community-resilience {
+    background-color: lawngreen;
+} 
+.community-resilience h1 {
+    color: black;
+}
+.community-resilience p {
+    color: black;
+}
+.climate-change-impact {
+    background-color: yellow;
+}
+.climate-change-impact h1 {
+    color: black;
+}
+.climate-change-impact p {
+    color: black;
+}
+.international-cooperation {
+    background-color: mediumblue;
+}
+.international-cooperation h1 {
+    color: white;
+}
+.international-cooperation p {
+    color: white;
+}

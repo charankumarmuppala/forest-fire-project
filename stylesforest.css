@@ -1,0 +1,64 @@
+.heading {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 50px;
+    background-image: url(bgimage.jpg);
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 2em; /* Adjust the value accordingly */
+}
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.heading {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 50px;
+    background-image: url(heder.jpeg);
+}
+
+nav {
+    background-color: #2b1b1b;
+    color: #f2f2f2;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e5e5e5;
+}
+
+main {
+    color: rgb(255, 255, 255);
+    background-image: url(heder.jpeg);
+    padding: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 2em; /* Adjust the value accordingly */
+}
